@@ -119,6 +119,7 @@ body{
 /*  */
 .main_wrapper{
     margin-top: 45px;
+    margin-bottom: 95px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -131,5 +132,43 @@ body{
     font-size: 20px;
     line-height: 160%;
     margin-top: 20px;
+    color: #F2F2F2;
+}
+/*  */
+.main_btn{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    background: #F2323D;
+    border-radius: 6px;
+    width: 224px;
+    height: 60px;
+    margin-top: 50px;
+    border: none;
+    color: #FFFFFF;
+}
+.main_btn:hover{
+    box-shadow: 0 0 10px #F2323D;
+}
+/*  */
+.main_icons{
+    display: flex;
+    margin-top: 100px;
+    width: 560px;
+    justify-content: space-between;
+}
+.main_card{
+    border-left: 1px solid #E9E9E9;
+    padding-left: 15px;
+}
+.main_card_text{
+    margin-top: 16px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
     color: #F2F2F2;
 }
