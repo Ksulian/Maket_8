@@ -175,11 +175,11 @@ body{
 
 /*  */
 /*  */
-.dir_bg{
-    background: #FAFAFA;
-    opacity: 0.1;
-    height: 800px;
-    margin-top: -795px;
+.dir{
+    background: url('../img/photos/bg.png') no-repeat center center / cover;
+}
+.dir_wrapper{
+    padding: 50px 0;
 }
 /*  */
 .dir_title{
@@ -234,4 +234,16 @@ body{
     display: flex;
     margin-bottom: 50px;
     justify-content: space-between;
+}
+
+/*  */
+.full_h1{
+   display: none;
+}
+.full_photo{
+    margin: 0 auto;
+    display: flex;
+}
+.full{
+    margin: 80px 0;
 }
