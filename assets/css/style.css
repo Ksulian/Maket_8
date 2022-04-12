@@ -1,0 +1,135 @@
+@font-face{
+    font-family: "Gilroy";
+    src: url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face{
+    font-family: "Gilroy";
+    src: url('../fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face{
+    font-family: "Gilroy";
+    src: url('../fonts/Gilroy-Semibold.ttf') format('truetype');
+    font-weight: 600;
+}
+@font-face{
+    font-family: "Gilroy";
+    src: url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Gilroy";
+    font-weight: 400;
+    overflow-x: hidden;
+    background: linear-gradient(80.5deg, #83A4BD 11.55%, #A5A2B3 24.51%, #BA929B 33.33%, #BD8689 39.89%, #C46F6A 47.85%, #C65857 55.62%, #BF4145 65.14%, #9C2E37 75.49%, #7A262E 84.66%, #5B1E23 95.55%, #421F23 103.99%, #2D1C22 111.11%);
+}
+.container{
+    width: 1165px;
+    margin: 0 auto;
+}
+/*  */
+.header_wrapper{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*  */
+.nav{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+/*  */
+.header_nav{
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #F2F2F2;
+}
+.header_nav:hover{
+    text-decoration: underline;
+}
+/*  */
+.header_numbers{
+    display: flex;
+    align-items: center;
+}
+.header_number{
+    font-family: 'Gilroy';
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF
+}
+.header_number:hover{
+    text-decoration: underline;
+}
+.header_order{
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+/*  */
+.header_logo{
+    transition: 0.4s;
+}
+.header_logo:hover{
+    transform: scale(1.1);
+}
+
+/*  */
+/*  */
+.main_title{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    color: #F2F2F2;
+    width: 526px;
+}
+/*  */
+.colortext{
+    font-weight: 400;
+}
+/*  */
+.main_photo{
+    transition: 1s;
+    margin-right: -100px;
+}
+.main_photo:hover{
+    transform: scale(1.05);
+}
+/*  */
+.main_wrapper{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*  */
+.main_subtitle{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    margin-top: 20px;
+    color: #F2F2F2;
+}
