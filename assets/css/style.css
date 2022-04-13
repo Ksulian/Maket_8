@@ -316,22 +316,6 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-
-
-
-
-
-
-/*  */
-/*  */
-.consul{
-    margin: 0 auto;
-    position: relative;
-    background: url('../img/photos/bg.png') no-repeat center center / cover;
-}
-.colortext3{
-    font-weight: 700;
-}
 /*  */
 .rew_arrow_left{
     transform: rotate(180deg);
@@ -377,4 +361,77 @@ body{
 }
 .rew_rew:hover{
     transform: scale(1.1);
+}
+/*  */
+/*  */
+.consul{
+    margin: 0 auto;
+    position: relative;
+    background: url('../img/photos/bg.png') no-repeat center center / cover;
+}
+.colortext3{
+    font-weight: 700;
+}
+.consul_title{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+/*  */
+.consul_inputs{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+}
+/*  */
+.consul_btn{
+    width: 200px;
+    height: 58px;
+    cursor: pointer;
+    background: #F2323D;
+    border-radius: 6px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    border: none;
+    color: #FFFFFF;
+}
+.consul_btn:hover{
+    box-shadow: 0 0 10px #F2323D;
+}
+/*  */
+.consul_input{
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    padding-left: 15px;
+    width: 200px;
+    height: 58px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.consul_input::placeholder{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+/*  */
+.consul_content{
+    position: absolute;
+    margin-top: -360px;
+    margin-left: 460px;
 }
