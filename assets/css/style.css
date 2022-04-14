@@ -38,20 +38,20 @@ body{
     width: 1165px;
     margin: 0 auto;
 }
-/*  */
+/* расположение хедера */
 .header_wrapper{
     margin-top: 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-/*  */
+/* расположение навигации */
 .nav{
     width: 600px;
     display: flex;
     justify-content: space-between;
 }
-/*  */
+/* шрифт навигации */
 .header_nav{
     font-family: 'Gilroy';
     font-weight: 400;
@@ -62,7 +62,7 @@ body{
 .header_nav:hover{
     text-decoration: underline;
 }
-/*  */
+/* расположение номера и его шрифт */
 .header_numbers{
     display: flex;
     align-items: center;
@@ -85,7 +85,7 @@ body{
     line-height: 160%;
     color: #FFFFFF;
 }
-/*  */
+/* анимация логотипа при наведении */
 .header_logo{
     transition: 0.4s;
 }
@@ -93,8 +93,8 @@ body{
     transform: scale(1.1);
 }
 
-/*  */
-/*  */
+/* главная секция */
+/* шрифт заголовка */
 .main_title{
     font-family: 'Gilroy';
     font-style: normal;
@@ -104,11 +104,10 @@ body{
     color: #F2F2F2;
     width: 526px;
 }
-/*  */
-.colortext{
+.main_title span{
     font-weight: 400;
 }
-/*  */
+/* анимация и расположение фото */
 .main_photo{
     transition: 1s;
     margin-right: -100px;
@@ -125,7 +124,7 @@ body{
 		transform: scale(1.0);
 	}
 }
-/*  */
+/* расположение главной секции */
 .main_wrapper{
     margin-top: 45px;
     margin-bottom: 95px;
@@ -133,7 +132,7 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-/*  */
+/* шрифт подзаголовка */
 .main_subtitle{
     font-family: 'Gilroy';
     font-style: normal;
@@ -143,7 +142,7 @@ body{
     margin-top: 20px;
     color: #F2F2F2;
 }
-/*  */
+/* вид кнопки */
 .main_btn{
     cursor: pointer;
     font-family: 'Gilroy';
@@ -162,7 +161,7 @@ body{
 .main_btn:hover{
     box-shadow: 0 0 10px #F2323D;
 }
-/*  */
+/* расположение блоков с иконками */
 .main_icons{
     display: flex;
     margin-top: 100px;
@@ -183,15 +182,15 @@ body{
     color: #F2F2F2;
 }
 
-/*  */
-/*  */
+/* вторая секция */
+/* добавление заднего фона */
 .dir{
     background: url('../img/photos/bg.png') no-repeat center center / cover;
 }
 .dir_wrapper{
     padding: 50px 0;
 }
-/*  */
+/* шрифт заголовка */
 .dir_title{
     font-family: 'Gilroy';
     font-weight: 600;
