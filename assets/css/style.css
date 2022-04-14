@@ -112,9 +112,18 @@ body{
 .main_photo{
     transition: 1s;
     margin-right: -100px;
+    animation: main_photo 3s infinite;
 }
-.main_photo:hover{
-    transform: scale(1.05);
+@keyframes main_photo{
+    0% {
+		transform: scale(1.0);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+	100% {
+		transform: scale(1.0);
+	}
 }
 /*  */
 .main_wrapper{
