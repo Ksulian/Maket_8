@@ -258,14 +258,14 @@ body{
 }
 
 /*  */
-/*  */
+/* Добавление заднего фона */
 .cycle{
     background: url('../img/photos/bg2.png') no-repeat center center / cover;
 }
 .cycle_wrapper{
     padding: 80px 0 40px 0;
 }
-/*  */
+/* шрифт заголовка */
 .cycle_title{
     margin-bottom: 40px;
     font-family: 'Gilroy';
@@ -275,13 +275,13 @@ body{
     line-height: 130%;
     color: #FFFFFF;
 }
-/*  */
+/* расположение блоков */
 .cycle_blocks{
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
 }
-/*  */
+/* вид блока */
 .cycle_block{
     position: relative;
     background: none;
